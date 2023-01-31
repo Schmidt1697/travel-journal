@@ -11,7 +11,7 @@ class Trip < ApplicationRecord
 
   # , size: { less_than: 3.megabytes , message: 'is too large' }
 
-  #helps us store locally during development 
+  #helps us store locally during development - uncomment out during development
   # def image_urls
   #   images.map{ |img| Rails.application.routes.url_helpers.url_for(img)}
   # end
